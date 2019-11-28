@@ -1,5 +1,5 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic",
+  "name": "@ali-zaidi-arrivy/ckeditor5-build-classic-with-alignment",
   "version": "15.0.0",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
@@ -66,10 +66,12 @@
   "author": "CKSource (http://cksource.com/)",
   "license": "GPL-2.0-or-later",
   "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/ckeditor/ckeditor5/issues",
+  "bugs": {
+    "url": "https://github.com/ckeditor/ckeditor5/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5-build-classic.git"
+    "url": "git+https://github.com/ckeditor/ckeditor5-build-classic.git"
   },
   "scripts": {
     "build": "webpack --mode production",
@@ -93,5 +95,9 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {}
 }
