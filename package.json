@@ -1,6 +1,6 @@
 {
-  "name": "@ali-zaidi-arrivy/ckeditor5-build-classic-with-alignment",
-  "version": "15.0.0",
+  "name": "@ali-zaidi-arrivy/ckeditor5-build-classic",
+  "version": "15.0.3",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
@@ -18,7 +18,9 @@
     "collaboration",
     "collaborative",
     "real-time",
-    "framework"
+    "framework",
+    "ckeditor5-alignment",
+    "ckeditor5-font"
   ],
   "main": "./build/ckeditor.js",
   "files": [
@@ -37,6 +39,7 @@
     "@ckeditor/ckeditor5-easy-image": "^15.0.0",
     "@ckeditor/ckeditor5-editor-classic": "^15.0.0",
     "@ckeditor/ckeditor5-essentials": "^15.0.0",
+    "@ckeditor/ckeditor5-font": "^15.0.0",
     "@ckeditor/ckeditor5-heading": "^15.0.0",
     "@ckeditor/ckeditor5-image": "^15.0.0",
     "@ckeditor/ckeditor5-indent": "^15.0.0",
