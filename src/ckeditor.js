@@ -32,6 +32,7 @@ import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import FontSize from '@ckeditor/ckeditor5-font/src/fontsize';
 import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor';
+import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 
 export default class ClassicEditor extends ClassicEditorBase { }
 
@@ -63,6 +64,7 @@ ClassicEditor.builtinPlugins = [
 	FontSize,
 	FontFamily,
 	FontColor,
+	Strikethrough
 ];
 
 // Editor configuration.
@@ -74,6 +76,7 @@ ClassicEditor.defaultConfig = {
 			'alignment',
 			'bold',
 			'italic',
+			'strikethrough',
 			'link',
 			'bulletedList',
 			'numberedList',
@@ -89,7 +92,7 @@ ClassicEditor.defaultConfig = {
 			'redo',
 			'fontSize',
 			'fontColor',
-			'fontFamily',
+			'fontFamily'
 		]
 	},
 	image: {
